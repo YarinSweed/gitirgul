@@ -1,0 +1,57 @@
+body{
+    background-color: hotpink;
+}
+
+.container, .black, .white {
+	padding:0px;
+	margin:0px;
+}
+
+.container {
+	width:384px;
+	height:384px;
+}
+
+.black, .white {
+	width:48px;
+	height:48px;
+	float:left;
+}
+
+.black {
+	background-color:#000000;
+}
+
+.white {
+	background-color:#FFFFFF;
+}
+
+.blueS{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    border: 1px;
+    margin-left: 4px;
+    margin-top: 4px;
+    background-color: blue;
+    transition: all ease-in-out 0.3s;
+}
+
+.redS{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    border: 1px;
+    margin-left: 4px;
+    margin-top: 4px;
+    background-color: red; 
+    transition: all ease-in-out 0.3s;
+}
+
+.blueS:hover{
+    background-color: yellow;
+}
+
+.redS:hover{
+    background-color: orange;
+}
